@@ -1,0 +1,271 @@
+/****************************************************/
+/*General (only for main pages)*/
+/****************************************************/
+*{
+  margin: 0;
+  /* font-family: 'Sansita Swashed', cursive; */
+  font-family: 'Teko', sans-serif;
+}
+
+hr{
+  margin: auto;
+  width: 40%;
+  background-color: #fff;
+}
+
+body{
+  background-color: white;
+}
+
+html{
+scroll-behavior: smooth;
+}
+
+h1{
+  font-size: 5rem;
+  font-family: 'Anton', sans-serif !important;
+}
+
+h2{
+  font-size: 2rem;
+  font-family: 'Anton', sans-serif !important;
+}
+
+h3{
+  font-size: 22px;
+}
+
+a{
+  font-family: 'Anton', sans-serif !important;
+  color: white;
+}
+
+.loader{
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 6rem;
+  height: 6rem;
+  -webkit-animation: spin 0.5s linear infinite; /* Safari */
+  animation: spin 0.5s linear infinite;
+  visibility: hidden;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/****************************************************/
+/*Header*/
+/****************************************************/
+.middleHeader{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  /* color: #DD0F0F; */
+}
+
+.middleContent{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* text-align: center; */
+  color: #fff;
+  /* color: #DD0F0F; */
+}
+
+.navbar-nav{
+  display: inline;
+}
+
+.navbar-nav a{
+  padding: 0% 8%;
+  font-size: 2rem;
+  text-align: right;
+  display: inline;
+  margin: 1%;
+}
+
+.header{
+  background-image: url("img/mainPiano.jpg");
+  /* background: lightblue; */
+  padding: 0% 0%;
+  /* overflow: auto; */
+  height: 45rem;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  color: white;
+}
+
+/****************************************************/
+/* Main Pages */
+/****************************************************/
+.sticky{
+  position: sticky;
+  top: 0;
+  bottom: 0;
+  float: right;
+  background-color: #0070A6;
+  color: white;
+}
+
+.loader{
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 6rem;
+  height: 6rem;
+  -webkit-animation: spin 0.5s linear infinite; /* Safari */
+  animation: spin 0.5s linear infinite;
+  visibility: hidden;
+}
+
+/* Media for loader */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+main{
+  /* Nothing */
+}
+
+.main-page1{
+  width: 100%;
+  padding: 2%;
+  background-color: #007CBF;
+  text-align: center;
+  height: 500px;
+}
+
+.main-page2{
+  width: 100%;
+  padding: 2%;
+  background-color: white;
+  height: auto;
+  text-align: center;
+}
+
+.iconx{
+  color: #64A1C3;
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+.iconx:hover{
+  color: #00D7FF;
+}
+
+/****************************************************/
+/*Contact page*/
+/****************************************************/
+.contact-plot{
+  padding: 4% 4%;
+  background-color: #fff;
+  border-radius: 12px;
+  color: black;
+}
+
+#register{
+  padding: 4% 4%;
+  background-color: #628AFF;
+  border-radius: 5%;
+  color: black;
+}
+
+#login{
+  padding: 4% 4%;
+  background-color: #628AFF;
+  border-radius: 5%;
+  color: black;
+}
+
+#contact-pic-plot{
+  padding: 4% 4%;
+  background-color: #7EDCFF;
+  border-radius: 5%;
+}
+
+.contactBottom{
+  background-color: #5579FF;
+  height: 300px;
+}
+
+h4{
+  color: red;
+  font-size: 25px;
+}
+
+h5{
+  color: green;
+  font-size: 25px;
+}
+
+/****************************************************/
+/*Byline and footer*/
+/****************************************************/
+.byline{
+  padding: 1% 40%;
+  height: auto;
+  background-color: #133AAE;
+  text-align: center;
+  color: #fff;
+}
+
+footer{
+  padding: 1% 1%;
+  height: auto;
+  background-color: darkblue;
+  text-align: center;
+  color: #fff;
+}
+
+i{
+  padding: 0% 1%;
+}
+
+.footherLogo{
+  width: 80px;
+  float: ;
+}
+
+/****************************************************/
+/*Media Query*/
+/****************************************************/
+@media (max-width: 900px){
+  .navbar-nav{
+    display: flex;
+  }
+
+  .display-4{
+    font-size: 3rem;
+  }
+
+  .middleContent{
+    position: relative;
+    transform: translate(-48.4%, 6%);
+  }
+
+  .contactBottom{
+    height: 0px;
+  }
+}
+
+@media (max-width: 600px){ }
